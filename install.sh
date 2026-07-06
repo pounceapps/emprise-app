@@ -3,7 +3,7 @@
 # Usage: curl -fsSL https://raw.githubusercontent.com/StevenSSparks/emprise/main/install.sh | sh
 set -e
 
-REPO="senzalldev/emprise-app"
+REPO="pounceapps/emprise-app"
 INSTALL_DIR="/usr/local/bin"
 BINARY="emprise"
 

@@ -2,22 +2,22 @@
 
 > *"A bold undertaking"* — AI-powered **CLI** + **Desktop** assistant with 96+ tools, document intelligence, multi-LLM support, PHI/HIPAA compliance, and a 6-layer prompt engineering system. Same Go runtime, same config, same SQLite history — just two front-ends.
 
-[![Download](https://img.shields.io/github/v/release/senzalldev/emprise-app?label=download)](https://github.com/senzalldev/emprise-app/releases/latest)
+[![Download](https://img.shields.io/github/v/release/pounceapps/emprise-app?label=download)](https://github.com/pounceapps/emprise-app/releases/latest)
 [![Website](https://img.shields.io/badge/website-emprise.dev-58d1c9)](https://emprise.dev)
-[![Docs](https://img.shields.io/badge/docs-wiki-blue)](https://github.com/senzalldev/emprise-app/wiki)
+[![Docs](https://img.shields.io/badge/docs-wiki-blue)](https://github.com/pounceapps/emprise-app/wiki)
 
 > ### ⚠️ Experimental — work in progress, no warranty
 >
 > emprise is an experimental personal project. Expect rough edges, occasional regressions, and breaking changes between releases. **Use at your own risk.** No warranty, express or implied.
 >
-> **The source repository is private.** This repo (`emprise-app`) only carries the install script, brand assets, and the published builds. If a binary you need isn't in the latest release, file an [issue](https://github.com/senzalldev/emprise-app/issues) — it's a CI matter, not a "build it yourself" matter.
+> **The source repository is private.** This repo (`emprise-app`) only carries the install script, brand assets, and the published builds. If a binary you need isn't in the latest release, file an [issue](https://github.com/pounceapps/emprise-app/issues) — it's a CI matter, not a "build it yourself" matter.
 
 ## Install
 
 ### CLI (macOS / Linux)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/senzalldev/emprise-app/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/pounceapps/emprise-app/main/install.sh | sh
 emprise --setup
 ```
 
@@ -25,17 +25,17 @@ The script picks the right binary, drops it on your PATH, and runs the first-run
 
 ### CLI (Windows)
 
-Download `emprise-windows-amd64.exe` from [Releases](https://github.com/senzalldev/emprise-app/releases/latest) and put it on `%PATH%`.
+Download `emprise-windows-amd64.exe` from [Releases](https://github.com/pounceapps/emprise-app/releases/latest) and put it on `%PATH%`.
 
 ### Desktop
 
 | Platform | Asset |
 |---|---|
-| macOS Apple Silicon | [`emprise-desktop-macos.dmg`](https://github.com/senzalldev/emprise-app/releases/latest) (signed + notarized) |
-| Windows amd64 | [`emprise-desktop-windows-installer.exe`](https://github.com/senzalldev/emprise-app/releases/latest) (NSIS, bootstraps WebView2) |
-| Linux amd64 | [`emprise-desktop-linux-amd64.tar.gz`](https://github.com/senzalldev/emprise-app/releases/latest) (needs `libwebkit2gtk-4.0-37` and `libgtk-3-0`) |
+| macOS Apple Silicon | [`emprise-desktop-macos.dmg`](https://github.com/pounceapps/emprise-app/releases/latest) (signed + notarized) |
+| Windows amd64 | [`emprise-desktop-windows-installer.exe`](https://github.com/pounceapps/emprise-app/releases/latest) (NSIS, bootstraps WebView2) |
+| Linux amd64 | [`emprise-desktop-linux-amd64.tar.gz`](https://github.com/pounceapps/emprise-app/releases/latest) (needs `libwebkit2gtk-4.0-37` and `libgtk-3-0`) |
 
-See the [Installation guide](https://github.com/senzalldev/emprise-app/wiki/Installation) for step-by-step instructions per platform.
+See the [Installation guide](https://github.com/pounceapps/emprise-app/wiki/Installation) for step-by-step instructions per platform.
 
 ## What's in the box
 
@@ -73,7 +73,7 @@ Type `/help` inside emprise for the full list. Highlights:
 | `/clear` | Reset both UI and server context, save prior to history first |
 | `/setup` | Add an LLM provider (wizard) |
 
-Full list: [Commands wiki](https://github.com/senzalldev/emprise-app/wiki/Commands).
+Full list: [Commands wiki](https://github.com/pounceapps/emprise-app/wiki/Commands).
 
 ## Configuration
 
@@ -104,7 +104,7 @@ prompts:
   role: developer
 ```
 
-See the [Configuration guide](https://github.com/senzalldev/emprise-app/wiki/Configuration) for the full schema (OAuth, PHI mode, SQL databases, MCP servers, web contexts, etc.).
+See the [Configuration guide](https://github.com/pounceapps/emprise-app/wiki/Configuration) for the full schema (OAuth, PHI mode, SQL databases, MCP servers, web contexts, etc.).
 
 ## Update
 
@@ -117,9 +117,9 @@ Atomic in-place upgrade — emprise queries the GitHub releases API, downloads t
 ## Documentation
 
 - **[Website](https://emprise.dev)** — feature overview, screenshots, news
-- **[Wiki](https://github.com/senzalldev/emprise-app/wiki)** — installation, configuration, every command, every tool, FAQ
-- **[Discussions](https://github.com/senzalldev/emprise-app/discussions)** — community, Q&A
-- **[Issues](https://github.com/senzalldev/emprise-app/issues)** — bug reports, feature requests
+- **[Wiki](https://github.com/pounceapps/emprise-app/wiki)** — installation, configuration, every command, every tool, FAQ
+- **[Discussions](https://github.com/pounceapps/emprise-app/discussions)** — community, Q&A
+- **[Issues](https://github.com/pounceapps/emprise-app/issues)** — bug reports, feature requests
 
 ## License
 

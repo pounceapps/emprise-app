@@ -4,10 +4,10 @@
 
 ### How do I install emprise?
 ```bash
-curl -fsSL https://raw.githubusercontent.com/senzalldev/emprise-app/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/pounceapps/emprise-app/main/install.sh | sh
 ```
 
-Or download the binary for your platform from the [releases page](https://github.com/senzalldev/emprise-app/releases).
+Or download the binary for your platform from the [releases page](https://github.com/pounceapps/emprise-app/releases).
 
 ### How do I update?
 ```bash
